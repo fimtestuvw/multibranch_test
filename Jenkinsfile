@@ -5,7 +5,7 @@ pipeline{
   }
   
   stages{
-    stage('Test'){
+    stage('Test-prod'){
       steps{
         echo 'Testing'
       }
